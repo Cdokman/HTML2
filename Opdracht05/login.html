@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="css/burton.css">
+    <meta charset="UTF-8">
+    <title>Burton Education</title>
+
+</head>
+<body>
+<div id="wrapper2">
+<h2>Formulier</h2>
+    <form action="http://www.savatarian.com/html5/form.php" method="post">
+    <div class="checkbox">
+        <label>Lekkerf eten:</label><br>
+        <input type="checkbox"  name="lekker-eten"  value="patat">
+        <span class="checkbox">patat</span><br>
+        <input type="checkbox"  name="lekker-eten"  value="bruine bonen">
+        <span class="checkbox">bruine bonen</span><br>
+        <input type="checkbox"  name="lekker-eten"  value="linzen">
+        <span class="checkbox">linzen</span><br>
+    </div>
+    <label>Voornaam:
+        <input type="text" name="VNaam"><br>
+    </label>
+
+    <br>
+    <label>Tussenvoegsel:
+        <input type="text" name="Tussenvoegsel">
+    </label>
+
+    <br>
+    <label>Achternaam:
+        <input type="text" name="Achternaam">
+    </label>
+     <br>
+        <label>Geslacht:
+            <div class="geslacht">
+                <input class="geslacht"type="radio" name="geslacht" value="man"/>
+                &nbsp;Man
+                <input class="geslacht" type="radio" name="geslacht" value="vrouw"/>
+                &nbsp;Vrouw
+            </div>
+        </label>
+
+    <br>
+    <label>Kleur ogen:
+        <select name="kleur ogen">
+            <option>groen</option>
+            <option>blauw</option>
+            <option>bruin</option>
+        </select>
+    </label>
+    <br>
+    <label>Geboortedatum:
+        <input type="date" name="geboortedatum">
+    </label>
+
+    <br>
+    <label>Omschrijving:<br>
+        <textarea rows="9" name="omschrijving"></textarea>
+    </label>
+
+
+    <div class="button">
+        <input class="button" onclick="window.location.href='http://localhost:63342/HTML2/Opdracht05/burton.html'" type="button" value="Annuleer">
+        <input class="button" type="submit" value="Submit">
+    </div>
+
+</form>
+</div> <!-- wrapper2 -->
+</body>
+</html>

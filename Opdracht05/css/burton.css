@@ -56,3 +56,52 @@ footer {
 footer a {
     color: white;
 }
+
+
+input[type=text]{
+    position: absolute;
+    left: 150px;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+div.checkbox input{
+    position: relative ;
+    left: 0px;
+
+}
+div.checkbox {
+    float: right;
+    position: relative;
+
+}
+div.button {
+    padding-left: 320px;
+    position: relative;
+
+}
+
+div#wrapper2, footer {
+    margin: auto;
+    position: relative;
+    width: 800px;
+    background-color: rgb(129, 149, 195);
+    padding: 20px;
+}
+div.geslacht {
+    position: relative;
+    display: inline-block;
+    left: 50px;
+}
+select{
+    position: absolute;
+    left: 150px;
+    width: 80px;
+    margin-bottom: 5px;
+}
+input[type=date]{
+    position: absolute;
+    left: 150px;
+    width: 80px;
+    margin-bottom: 5px;
+}
